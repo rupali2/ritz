@@ -1,0 +1,193 @@
+body {
+	font-size: 16px;
+	background-color: #ee8a9b;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+
+}
+
+#brand-size
+{
+    /* font-family: 'Berkshire Swash', cursive; */
+    font-family: 'Rye', cursive;
+    color:teal;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: .75;
+}
+ 
+
+.navbar-brand{
+    padding-left: 10px;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+#nav-list{
+    margin-top: 10px;
+    
+}
+
+#nav-list a{
+    color:#951C49;
+    text-align:center;
+}
+
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+#nav-list a span{
+    font-size: 20px;
+}
+
+
+#phone {
+    margin-top: 5px;
+    
+}
+
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div{
+    color:green;
+    text-align: right;
+    
+}
+
+#header-nav button.navbar-toggler{
+    border:1px solid #ee8a9b;
+}
+
+
+.container .jumbotron{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    
+    
+}
+
+#menu-tile .img-fluid, #specials-tile .img-fluid, #map-tile .img-fluid{
+
+    height:250px;
+    width: 100%;
+     margin-bottom:0;
+    position: relative;
+    border: 2px solid #951C49;
+    
+    
+}
+
+#menu-tile:hover,#specials-tile:hover, #map-tile:hover{
+
+
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile, #specials-tile, #map-tile{
+    
+    background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span{
+    position:relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+
+ .card-body{
+    background-color: gray;
+}
+.card-footer{
+    text-align: center;
+}
+
+.col .img-fluid{
+    padding-bottom: 30px;
+}
+.card-img{
+    height:"100%";
+}
+.card-text{
+    bottom: 0em;
+}
+
+    /* .col{
+       position: relative;
+       border: 2px solod #951C49;
+       overflow: hidden;
+       
+       margin: 0 auto 15px;
+   } 
+
+   .col  span{
+       position: absolute;
+       bottom: 0;
+       right: 0;
+       width: 100%;
+       text-align: center;
+       font-size: 1.2em;
+       text-transform: uppercase;
+       color: #fff;
+       opacity: .8;
+   } */
+/* @media(min-width:991px) and (max-width:1199px)
+{
+    .navbar-brand{
+        width: 50px;
+        height: 50px;
+    }
+} */
+
+
+
+/* Large devives only*/
+
+/* @media (min-width: 992px)
+{
+    .jumbotron{
+        height:675px;
+        box-shadow: 0 0 50px #951C49;
+        border: 2px solid #951C49;
+        
+    }
+} */
+
+
+
+
+/*Extra small devices only */
+/* @media(max-width:575px)
+{
+    #brand-size{
+        padding-top: 10px;
+        font-size: 5vw; 
+    }
+} 
+ */
